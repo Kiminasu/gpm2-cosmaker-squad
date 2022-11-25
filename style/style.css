@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+#logomenu{
+    display: flex;
+    justify-content: left;
+    font-size: 22px;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+
+}
+
+.container-menu a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.primeiro-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+    
+}
+
+
+
+
+
