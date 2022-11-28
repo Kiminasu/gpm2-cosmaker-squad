@@ -1,0 +1,26 @@
+
+/* Reset de configuração */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* MAIN*/
+
+.text-1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main {
+    margin-top: 7%;
+
+}
+
+.input {
+    background-color: #EAE2B7 !important;
+}
+
+.cont-1 {
+    height: 25vh;
+}
+

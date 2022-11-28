@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./IMG/Favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../Flávia/recupera.css">
+  <script src="https://kit.fontawesome.com/25bc4345e8.js" crossorigin="anonymous"></script>
+  <title>Recuperar Senha</title>
+</head>
+
+<body style="background-color: #003049;">
+
+  <div class="container-fluid text-1">
+    <h2 class="text-center pt-5 text-light">Recuperar Senha</h2>
+  </div>
+  <main class="container-fluid cont-1">
+    <div class="row justify-content-center ">
+
+      <form class="col-md-3 me-5 ms-5 mb-5" form-group id="form">
+        <div class="alert alert-success alert-dismissible fade show" id="alert" style="display: none ">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          <strong>E-mail de recuperação enviado com sucesso, aquarde entraremos em contato</strong>
+        </div>
+        <label for="email" class="form-label text-light">Digite seu e-mail aqui</label>
+        <input type="email" class="form-control input" id="email" placeholder="Email" required>
+        <div class="valid-feedback">válido.</div>
+        <div class="invalid-feedback">Por favor, insira um endereço de email válido!</div>
+        <button type="submit" class="btn btn-info col-12 my-4 rounded-5" id="btn">Enviar</button>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../Flávia/recupera.js"></script>
+
+</html>
