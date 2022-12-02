@@ -1,4 +1,6 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"); /*BOOTSTRAP*/
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* FONTE DA LOGO*/
 /* Reset de configuração */
 *{
     margin: 0;
