@@ -1,4 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,20 +18,10 @@ header{
     color: white;
 }
 
-.formu{
-    border-radius: 20px;
-    border: 1px solid;
-    box-shadow: 1px 1px 4px black;
-}
-
-#nome, #email, #tel, #nasc, #cep, #rua, #bairro, #cidade, #estado{
-    margin-left: 50px;
-    margin-right: 900px;
-}
-
 #cosmakersquad{
     text-decoration: none;
     color: white;
+    font-family: 'Pacifico', cursive;
 }
 
 .container-menu a{
@@ -66,7 +58,60 @@ header{
 }
 /*AQUI TERMINA A NAVBAR*/
 
-/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*CORPO DA PÁGINA - INÍCIO*/
+
+.formu{
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 1px 1px 4px black;
+    background-color: white;
+}
+
+#nome, #sobrenome, #email, #tel, #cep1, #endereco1, #bairro1, #cidade1, #estado1, #num{
+    margin-left: 50px;
+    max-width: 300px;
+}
+
+.nCep{
+    margin-left: 50px;
+}
+
+.data{
+    width: 300px;
+    height: 60px;
+    border-radius: 8px;
+    border: #d8d8d8 solid;
+}
+
+#caixaComent{
+    margin-left: 140px;
+    margin-right: 50px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+#escArq{
+    margin-left: 90px;
+    padding-right: 100px;
+}
+
+#date, #source{
+    margin-left: 61px;
+    color: #0b0808;
+}
+#source{
+    margin-left: 115px;
+}
+
+#nasc{
+    margin-left: 50px;
+    display: inline-flex;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+
+/*CORPO DA PÁGINA - FIM*/
 
 /* DAQUI PARA BAIXO É O RODAPÉ*/
 .primeiro-rodape{
