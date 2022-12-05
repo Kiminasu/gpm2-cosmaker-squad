@@ -58,66 +58,6 @@ header{
 }
 /*AQUI TERMINA A NAVBAR*/
 
-.formu {
-    border-radius: 20px;
-    border: 1px solid;
-    box-shadow: 1px 1px 4px black;
-    background-color: white;
-}
-
-#nome,
-#sobrenome,
-#email,
-#tel,
-#cep1,
-#endereco1,
-#bairro1,
-#cidade1,
-#estado1,
-#num {
-    margin-left: 50px;
-    max-width: 300px;
-}
-
-.nCep {
-    margin-left: 50px;
-}
-
-.data {
-    width: 300px;
-    height: 60px;
-    border-radius: 8px;
-    border: #d8d8d8 solid;
-}
-
-#caixaComent {
-    margin-left: 140px;
-    margin-right: 50px;
-    height: 90px;
-    padding-bottom: 20px;
-}
-
-#escArq {
-    margin-left: 90px;
-    padding-right: 100px;
-}
-
-#date,
-#source {
-    margin-left: 61px;
-    color: #0b0808;
-}
-
-#source {
-    margin-left: 115px;
-}
-
-#nasc {
-    margin-left: 50px;
-    display: inline-flex;
-    width: 300px;
-    margin-bottom: 25px;
-}
 
 .primeiro-rodape {
     display: flex;
@@ -168,11 +108,6 @@ header{
     color: black;
 }
 
-#clique-aqui {
-    text-decoration: underline;
-    color: blue;
-}
-
 .social-links {
     display: flex;
 }
@@ -180,34 +115,42 @@ header{
 .social-links i {
     margin-right: 10px;
 }
-
-.perfil1,
-.perfil2 {
-    display: inline-block;
-    margin-left: 12em;
-
-}
-
-.perfil3
-{
-    display: inline-block;
-    margin-left: 12em;
-}
-
-.perfil4{
-    display: inline-block;
-    margin-left:5em
-}
-
-.perfil5{
-    display: inline-block;
-    margin-left: 13em;
-}
-
-.perfil1, .perfil2, .perfil3, .perfil4, .perfil5 {
-    margin-top: 3em;
+/* Aqui começa a página da Nossa Equipe*/
+.espaco{
+    text-align: center;
+    height: 40px;
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
     
 }
+
+.main{
+    display: flex;
+}
+
+
+.perfil1, .perfil2, .perfil3, .perfil4, .perfil5 {
+    margin: 20px;
+    margin-left: 2%;
+   
+    
+
+}
+.perfil3{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+img {
+    height: 190px;
+    width: 190px;
+    border-radius: 10%;
+    display: flex;
+    
+}
+/* Aqui termina a página da Nossa Equipe*/
+
+/* Aqui começa o rodapé da página*/
 
 footer {
     margin-top: 3em;
@@ -229,8 +172,5 @@ h2{
     color: #000000;
 }
 
-img {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-}
+
+/* Aqui termina o rodapé da página*/
